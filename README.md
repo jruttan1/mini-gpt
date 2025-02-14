@@ -23,7 +23,7 @@ A lightweight, character-level GPT-like language model for experimenting with te
   The Tiny Shakespeare dataset. Downloaded from [Karpathy's char-rnn project](https://github.com/karpathy/char-rnn).
 
 - **`mini_gpt.ipynb`**  
-  A Jupyter Notebook version of the project. This is useful if you prefer an interactive environment to experiment with the model, visualize losses, and generate text outputs inline.
+  A Jupyter Notebook version of a bigram language model version of this project. Useful educational resource to visualize losses, and generate text outputs inline.
 
 - **`output1.txt`** & **`output2.txt`** ...
   Example text generation outputs produced by the scripts or notebook. They show sample completions from the trained model.
@@ -31,21 +31,32 @@ A lightweight, character-level GPT-like language model for experimenting with te
 ---
 
 All hyperparameters are defined near the top of each script (or at the beginning of the notebook). Feel free to tweak:
-	•	batch_size
-	•	block_size
-	•	learning_rate
-  •	max_iters
-  • eval_iters
-	•	n_embd (embedding dimension)
-	•	n_head (number of attention heads)
-	•	n_layer (number of transformer blocks)
-	•	dropout
-	•	And more…
 
-Play around with these settings to see how they affect training speed and text quality.
+	• batch_size
+ 
+	• block_size
+ 
+	• learning_rate
+ 
+ 	• max_iters
+  
+  	• eval_iters
+   
+	• n_embd (embedding dimension)
+ 
+	• n_head (number of attention heads)
+ 
+	• n_layer (number of transformer blocks)
+ 
+	• dropout
+ 
+	• And more…
 
-Inspiration
-	•	Andrej Karpathy’s “Let’s build GPT” video
-	•	Karpathy’s char-rnn project
+A main objective of this project is playing around with these settings to see how they affect training speed and output quality.
+
+## Inspiration
+	• Andrej Karpathy’s “Let’s build GPT” video
+ 
+	• Karpathy’s char-rnn project
 
  
